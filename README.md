@@ -71,8 +71,15 @@ const prefix = '!';
 
 client.commands = new Discord.Collection();
 
-client.commands.set('ping', { name:'ping', run: msg => msg.reply('pong!') });
-client.commands.set('say', { name:'say', run: msg => msg.reply(msg.content.replace(`${prefix}say `, '')) });
+client.commands.set('ping', {
+	name:'ping',
+	run: msg => msg.reply('pong!')
+});
+
+client.commands.set('say', {
+	name:'say',
+	run: msg => msg.reply(msg.content.split(' ').slice(1).join(' '))
+});
 
 // Creates a Command Handler
 client.on('message', async(msg) => {
