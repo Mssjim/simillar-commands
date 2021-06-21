@@ -1,0 +1,33 @@
+{
+  "name": "simillar-commands",
+  "version": "1.0.0",
+  "description": "A simple npm utility module for obtaining similar commands in Discord Bots projects.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mssjim/simillar-commands.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "commands",
+    "simillar",
+    "did",
+    "you",
+    "mean",
+    "simillar",
+    "words",
+    "sugest",
+    "command"
+  ],
+  "author": "Mssjim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mssjim/simillar-commands/issues"
+  },
+  "homepage": "https://github.com/Mssjim/simillar-commands#readme",
+  "dependencies": {}
+}
