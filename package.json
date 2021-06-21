@@ -1,6 +1,6 @@
 {
   "name": "simillar-commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple npm utility module for obtaining similar commands in Discord Bots projects.",
   "main": "main.js",
   "scripts": {
