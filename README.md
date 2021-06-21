@@ -117,15 +117,15 @@ client.login('TOKEN');
 // Import module functions
 const { normalize, simillarCommands, simillarCommand } = require('simillar-commands');
 
-normalize('CômmÁnD'); 		 // command
+normalize('CômmÁnD');        // command
 normalize('CômmÁnD', false); // CommAnD
 
 const commands = ['ban', 'unban', 'BaN' , 'ping'];
 
-simillarCommands(commands, 'bam');			// ['ban', 'BaN']
-simillarCommands(commands, 'bam', false);	// ['ban']
-simillarCommands(commands, 'BaM', false);	// ['BaN']
-simillarCommands(commands, 'nban');		  	// ['ban, 'unban', 'BaN']
-simillarCommands(commands, 'nBaN', false);	// ['BaN']
+simillarCommands(commands, 'bam');          // ['ban', 'BaN']
+simillarCommands(commands, 'bam', false);   // ['ban']
+simillarCommands(commands, 'BaM', false);   // ['BaN']
+simillarCommands(commands, 'nban');         // ['ban, 'unban', 'BaN']
+simillarCommands(commands, 'nBaN', false);  // ['BaN']
 ```
 
